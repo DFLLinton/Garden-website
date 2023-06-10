@@ -1,7 +1,10 @@
 html {
     height: 100%;
     width: 100%;
-    background-image: url('garden1.jpeg');
+
+  }
+  body{
+    background-image: url('garden1.jpg');
     background-size: cover;
   }
   ul {
@@ -36,6 +39,7 @@ html {
   }
 #aboutpara{
     max-width: 300px;
+    color: white;
     padding: 20px;
     display: none;
     font-family: 'Nunito', sans-serif;
@@ -43,6 +47,7 @@ html {
 }
 #contactpara{
     max-width: 300px;
+    color: white;
     padding: 20px;
     display: none;
     font-family: 'Nunito', sans-serif;

@@ -14,3 +14,12 @@ const contact = document.getElementById('contactpara');
     }
 }
 
+function changeImage(x){
+    if (x == "about"){
+        document.body.style.backgroundImage = "url('garden3.jpeg')";
+        }else if (x == "contact"){
+            document.body.style.backgroundImage = "url('garden2.jpeg')";
+        }else{
+            document.body.style.backgroundImage = "url('garden1.jpg')";
+        }
+}
