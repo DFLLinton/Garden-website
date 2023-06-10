@@ -19,6 +19,10 @@ function changeImage(x){
         document.body.style.backgroundImage = "url('garden3.jpeg')";
         }else if (x == "contact"){
             document.body.style.backgroundImage = "url('garden2.jpeg')";
+        }else if (x == "left"){
+            document.body.style.backgroundImage = "url('garden2.jpeg')";
+        }else if (x == "right"){
+            document.body.style.backgroundImage = "url('garden2.jpeg')";
         }else{
             document.body.style.backgroundImage = "url('garden1.jpg')";
         }
