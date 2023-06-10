@@ -15,15 +15,23 @@ const contact = document.getElementById('contactpara');
 }
 
 function changeImage(x){
+    const images ={
+        1: 'garden1.jpeg',
+        2: 'garden2.jpeg',
+        3: 'garden3.jpeg',
+        4: 'garden4.jpeg',
+    }
+    let count = 1;
     if (x == "about"){
-        document.body.style.backgroundImage = "url('garden3.jpeg')";
+        document.body.style.backgroundImage = `url(${images['2']})`;
         }else if (x == "contact"){
-            document.body.style.backgroundImage = "url('garden2.jpeg')";
+            document.body.style.backgroundImage = `url(${images['3']})`;
         }else if (x == "left"){
-            document.body.style.backgroundImage = "url('garden2.jpeg')";
+            document.body.style.backgroundImage = `url(${images[`${count - 1}`]})`;
         }else if (x == "right"){
-            document.body.style.backgroundImage = "url('garden2.jpeg')";
+            document.body.style.backgroundImage = `url(${images[`${count + 1}`]})`;
         }else{
-            document.body.style.backgroundImage = "url('garden1.jpg')";
+            document.body.style.backgroundImage = `url(${images['1']})`;
         }
 }
+
