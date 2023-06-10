@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url('garden.jpeg');
+    background-size: cover;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #title {
+    float: left;
+    font-size: 20px;
+  }
+  #nottitle {
+    float: right;
+  }
+  
+  .navoption {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navoption:hover {
+    text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+    text-underline-position: under;
+  }
+#aboutpara{
+    max-width: 300px;
+    padding: 20px;
+    display: none;
+}
+#contactpara{
+    max-width: 300px;
+    padding: 20px;
+    display: none;
+}
