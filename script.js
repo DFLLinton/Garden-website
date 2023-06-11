@@ -22,11 +22,11 @@ const images =[
 function changeImage(x){
 
     if (x == "about"){
-        document.body.style.backgroundImage = `url(${images['1']})`;
+        document.body.style.backgroundImage = `url(${images[1]})`;
         }else if (x == "contact"){
-            document.body.style.backgroundImage = `url(${images['2']})`;
+            document.body.style.backgroundImage = `url(${images[2]})`;
         }else{
-            document.body.style.backgroundImage = `url(${images['0']})`;
+            document.body.style.backgroundImage = `url(${images[0]})`;
         }
 }
 
